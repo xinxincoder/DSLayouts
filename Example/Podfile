@@ -1,0 +1,12 @@
+use_frameworks!
+platform :ios, '9.3'
+target 'DSLayouts_Example' do
+  pod 'DSLayouts', :path => '../'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
+  target 'DSLayouts_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

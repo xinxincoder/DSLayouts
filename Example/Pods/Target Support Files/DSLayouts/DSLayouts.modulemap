@@ -1,0 +1,6 @@
+framework module DSLayouts {
+  umbrella header "DSLayouts-umbrella.h"
+
+  export *
+  module * { export * }
+}
